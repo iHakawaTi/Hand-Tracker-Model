@@ -4,13 +4,13 @@ Hand-Tracker-Model is a real-time hand tracking system built using Python, OpenC
 
 **Features**
 
--Real-time hand tracking
+ - Real-time hand tracking
 
--21-point hand landmark detection
+ - 21-point hand landmark detection
 
--Lightweight and efficient
+ - Lightweight and efficient
 
--Easy integration with other projects
+ - Easy integration with other projects
 
 **How It Works**
 
