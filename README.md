@@ -1,4 +1,4 @@
-**Overview**
+***Overview***
 
 Hand-Tracker-Model is a real-time hand tracking system built using Python, OpenCV, and MediaPipe. This project enables efficient detection and tracking of hand landmarks, making it useful for gesture recognition, sign language interpretation, and various interactive applications.
 
