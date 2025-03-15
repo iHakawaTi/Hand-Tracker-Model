@@ -1,13 +1,12 @@
-
 import cv2
 import mediapipe as mp
 import time
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
-#static_image_mode, max_num_hands, min_detection confidence, min tracking confidence----> parameters of Hands
+#static_image_mode, max_num_hands,model_complexity, min_detection confidence, min tracking confidence----> parameters of Hands
 mpDraw = mp.solutions.drawing_utils
-
+#To calculate fps
 pTime = 0
 cTime = 0
 
