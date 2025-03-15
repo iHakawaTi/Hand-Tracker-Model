@@ -1,9 +1,10 @@
+#Importing the module to easily use it anywhere + all the libraries
 import cv2
 import mediapipe as mp
 import time
 
 import HTModule as htm
-
+# dummy code from the module
 def main():
     pTime=0
 
@@ -15,6 +16,7 @@ def main():
         success, img = cap.read()
         img = detector.findHands(img)
         lmList = detector.findPosition(img,draw=False)
+        # Include code if u want the landmark positions of a certain node (21), [8] is index finger tip
         #if len(lmList) != 0:
         #    print(lmList[8])
         cTime = time.time()
